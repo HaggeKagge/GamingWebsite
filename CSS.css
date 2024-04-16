@@ -1,0 +1,337 @@
+#navBarText {
+
+    font-size: 1.7vw;
+
+}
+
+#navBarTextHome {
+
+    font-size: 1.7vw;
+
+}
+
+#navBar {
+
+    background-color: #02070D;
+
+}
+
+#sideBar {
+
+    background-color: #122A40;
+
+}
+
+#mainContentItems {
+
+    background-color: #193B59;
+
+}
+
+#popularGames {
+
+    background-color: #193B59;
+
+}
+
+#popularGamesImg {
+
+    background-color: #3C5E73;
+
+}
+
+.interactive-image {
+    transition: transform 0.2s ease-in-out;
+}
+
+.interactive-image:hover {
+    transform: scale(1.1);
+}
+
+#bildTExt {
+
+    background-color: #122A40;
+
+}
+
+@media screen and (max-width: 750px) {
+
+    #mainContent1 {
+
+        height: 300px !important;
+
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    #mainContent1Bild {
+
+        width: 0vw !important;
+
+    }
+
+}
+
+#mainContent1Text {
+
+    font-size: 1vw;
+
+}
+
+#bodyColor {
+
+    background-color: #122A40;
+
+}
+
+#sideColor {
+
+    background-color: #122A40;
+
+}
+
+#mainContent1Bild {
+
+    background-color: #193B59;
+
+}
+
+#breadText {
+
+    background-color: #3C5E73;
+
+}
+
+#BigThreeText {
+
+    font-size: 2.5vw;
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    #mainContent1Text {
+
+        font-size: 1.2vw;
+
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    #mainContent1Text {
+
+        font-size: 1.3vw;
+
+    }
+
+    #BigThreeText {
+
+        font-size: 2.6vw;
+    
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    #mainContent1Text {
+
+        font-size: 2vw;
+
+    }
+
+    #BigThreeText {
+
+        font-size: 4vw;
+    
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    #mainContent1Text {
+
+        font-size: 2.2vw;
+
+    }
+
+    #BigThreeText {
+
+        font-size: 4.2vw;
+    
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    #mainContent1Text {
+
+        font-size: 2.3vw;
+
+    }
+
+    #BigThreeText {
+
+        font-size: 3.5vw;
+    
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    #popularGamesText{
+
+        width: 0px;
+
+    }
+
+    #popularGamesImg{
+
+        width: 100%;
+
+        display: flex;
+        
+        flex-direction: column !important;
+
+        align-items: center;
+
+    }
+
+    #Img{
+
+        margin-top: 20px !important;
+
+        margin-bottom: 20px !important;
+
+        width: 40% !important;
+
+    }
+
+    #searchBar{
+
+        width: 87px !important;
+
+    }
+
+    #middleParts{
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    #sideBar{
+
+        width: 100%;
+
+        height: 80px;
+
+        display: flex;
+
+        flex-direction: row !important;
+
+    }
+
+    #mainContentItems{
+
+        width: 100%;
+
+    }
+
+    #navBarText{
+
+        width: 20vw;
+
+        font-size: 1.8vw;
+
+    }
+
+    #navBarTextHome {
+
+        display: none !important;
+    
+    }
+
+    
+}
+
+@media screen and (max-width: 550px) {
+
+    #navBarText{
+
+        font-size: 2.6vw;
+
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    #navBarText{
+
+        font-size: 3.5vw;
+
+    }
+
+}
+
+#bigButton{
+
+    font-size: 7vw;
+
+}
+
+#IndexBody{
+
+    background-color: #3C5E73;
+
+}
+
+/*
+Här börjar kodning för "Higher or Lower game"
+*/
+
+#freeGameBody{
+
+    background-color: #122A40;
+
+}
+
+#container{
+
+    background-color: #193B59;
+    border: 5px solid #F5E4C3;
+    height: 40vh;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+
+}
+
+p {
+
+    color: white;
+    font-size: 24px;
+
+}
+
+#input{
+
+    width: 100px;
+    margin: 25px auto;
+
+}
+
+#btn{
+
+    margin: 25px auto auto 5px;
+
+}
